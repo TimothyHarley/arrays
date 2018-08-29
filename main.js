@@ -27,3 +27,25 @@ const palindromeChecker = (word) => {
 palindromeChecker('mom'); //yes
 palindromeChecker('monkeybutt'); //no
 palindromeChecker('racecar'); //yes
+
+//adding or taking away from arrays
+
+let animals = ['spiders','snakes','moles','gophers','big spiders'];
+const lastItem = animals.pop(); //big spiders 
+const firstItem = animals.shift(); //spiders
+animals.push('bats');
+animals.unshift('baby hippos');
+
+/////////////////////////////////
+
+//1. what is your starting value?  0
+//2. what is your stopping value?  something.length
+//3. how are you incrementing?  +1
+
+//for(starting; stopping; increment){
+//    do something here
+//}
+
+for(let i = 0; i < animals.length; i++){
+    console.log(animals[i]);
+}
