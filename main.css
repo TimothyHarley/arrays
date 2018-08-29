@@ -2,3 +2,10 @@ body {
   background-color: lemonchiffon;
 
 }
+
+.statement {
+  background-color: slategray;
+  width: 25%;
+  text-align: center;
+
+}
