@@ -37,6 +37,8 @@ animals.push('bats');
 animals.unshift('baby hippos');
 
 /////////////////////////////////
+//       for loops            //
+///////////////////////////////
 
 //1. what is your starting value?  0
 //2. what is your stopping value?  something.length
